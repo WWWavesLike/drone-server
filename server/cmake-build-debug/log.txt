@@ -1,0 +1,100 @@
+1 :::: Sat Sep 21 21:31:50 2024
+	Role : Client / ID : test
+	Send-to : ll
+	State : Conn
+2 :::: Sat Sep 21 21:31:53 2024
+	Role : Recv / ID : ll
+	Recv-to : test
+	State : Conn
+3 :::: Sat Sep 21 21:31:56 2024
+	Role : Client / ID : test
+	Send-to : ll
+	Send-Message : close
+4 :::: Sat Sep 21 21:31:56 2024
+	Role : Recv / ID : ll
+	Recv-to : test
+	Recv-Message : close
+5 :::: Sat Sep 21 21:31:57 2024
+	Role : Client / ID : test
+	Send-to : ll
+	Send-Message : log
+6 :::: Sat Sep 21 21:31:57 2024
+	Role : Recv / ID : ll
+	Recv-to : test
+	Recv-Message : log
+7 :::: Sat Sep 21 21:32:00 2024
+	Role : Client / ID : test
+	Send-to : ll
+	Send-Message : hello
+8 :::: Sat Sep 21 21:32:00 2024
+	Role : Recv / ID : ll
+	Recv-to : test
+	Recv-Message : hello
+9 :::: Sat Sep 21 21:32:01 2024
+	Role : Client / ID : test
+	Send-to : ll
+	Send-Message : world
+10 :::: Sat Sep 21 21:32:01 2024
+	Role : Recv / ID : ll
+	Recv-to : test
+	Recv-Message : world
+11 :::: Sat Sep 21 21:32:03 2024
+	Role : Client / ID : test
+	Send-to : ll
+	Send-Message : close
+12 :::: Sat Sep 21 21:32:03 2024
+	Role : Recv / ID : ll
+	Recv-to : test
+	Recv-Message : close
+13 :::: Sat Sep 21 21:32:04 2024
+	Role : Client / ID : test
+	Send-to : ll
+	Send-Message : kkkk
+14 :::: Sat Sep 21 21:32:04 2024
+	Role : Recv / ID : ll
+	Recv-to : test
+	Recv-Message : kkkk
+1 :::: Sat Sep 21 21:34:21 2024
+	Role : Recv / ID : a
+	Recv-to : s
+	State : Conn
+2 :::: Sat Sep 21 21:34:24 2024
+	Role : Client / ID : s
+	Send-to : a
+	State : Conn
+3 :::: Sat Sep 21 21:34:25 2024
+	Role : Client / ID : s
+	Send-to : a
+	Send-Message : log
+4 :::: Sat Sep 21 21:34:25 2024
+	Role : Recv / ID : a
+	Recv-to : s
+	Recv-Message : log
+5 :::: Sat Sep 21 21:34:26 2024
+	Role : Client / ID : s
+	Send-to : a
+	Send-Message : close
+6 :::: Sat Sep 21 21:34:26 2024
+	Role : Recv / ID : a
+	Recv-to : s
+	Recv-Message : close
+7 :::: Sat Sep 21 21:34:27 2024
+	Role : Client / ID : s
+	Send-to : a
+	Send-Message : to
+8 :::: Sat Sep 21 21:34:27 2024
+	Role : Recv / ID : a
+	Recv-to : s
+	Recv-Message : to
+9 :::: Sat Sep 21 21:34:28 2024
+	Role : Client / ID : s
+	Send-to : a
+	Send-Message : you
+10 :::: Sat Sep 21 21:34:28 2024
+	Role : Recv / ID : a
+	Recv-to : s
+	Recv-Message : you
+11 :::: Sat Sep 21 21:35:12 2024
+	Role : Recv / ID : a
+	Recv-to : s
+	State : Close

@@ -1,0 +1,3 @@
+/home/waves-like/문서/Cpp_project/receiver/cmake-build-debug/CMakeFiles/receiver.dir
+/home/waves-like/문서/Cpp_project/receiver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/waves-like/문서/Cpp_project/receiver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
